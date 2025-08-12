@@ -6,9 +6,11 @@
 
 Для запуска через Docker: 
 docker build -t test_task2 .
+
 docker run -rm -it test_task
 
 Для запуска без Docker:
 Нужен python версии 3.11 и выше.
 pip install -r requirements.txt
+
 python main.py
